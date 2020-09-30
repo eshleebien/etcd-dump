@@ -49,4 +49,11 @@ $ etcd-dump
     -h, --help              output usage information
     -V, --version           output the version number
     -f, --file [json_file]  Path to JSON dump file for dumping/storing
+    -h, --host [value]      The etcd host
+    -p, --port [value]      The etcd port
+```
+
+### Build docker image
+```bash
+$ docker build -f Dockerfile .
 ```
